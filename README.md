@@ -25,7 +25,7 @@
 
 - [True Color](https://gist.github.com/andersevenrud/015e61af2fd264371032763d4ed965b6)
 
-**Once installed simply copy all the files in the `config` directory to your home directory.**
+**Once installed simply copy all the files to your home directory.**
 
 
 ## Notes
