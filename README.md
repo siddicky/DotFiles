@@ -9,6 +9,7 @@
 - Oh-my-posh
 - True Color (24-bit)
 
+---
 
 ## Links and Resources
 - [Alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
@@ -27,9 +28,16 @@
 
 **Once installed simply copy all the files to your home directory.**
 
+---
 
 ## Notes
 Tmux
 - Use `Prefix + E` in tmux to send the command to all windows in current session.
 - Use `Shift + arrow keys` to navigate windows.
 - Use `Ctrl|Shift + arrow keys` to navigate panes.
+
+---
+
+## Example
+
+![Alt text](images/custom-config-ubuntu.png?raw=true "Ubuntu")
