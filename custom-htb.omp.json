@@ -13,7 +13,7 @@
           },
           {
             "background": "#9fef00",
-            "foreground": "#100e23",
+            "foreground": "#141d2b",
             "powerline_symbol": "\ue0b0",
             "properties": {
               "style": "folder"
@@ -30,7 +30,7 @@
               "{{ if gt .Ahead 0 }}#89d1dc{{ end }}",
               "{{ if gt .Behind 0 }}#c5b6ad{{ end }}"
             ],
-            "foreground": "#100e23",
+            "foreground": "#141d2b",
             "powerline_symbol": "\ue0b0",
             "properties": {
               "branch_ahead_icon": "\u2191",
@@ -52,8 +52,8 @@
             "type": "git"
           },
           {
-            "background": "#ffee58",
-            "foreground": "#100e23",
+            "background": "#ffaf00",
+            "foreground": "#141d2b",
             "powerline_symbol": "\ue0b0",
             "style": "powerline",
             "template": " {{ .WorkspaceName }} ",
@@ -61,10 +61,10 @@
           },
           {
             "background": "#ff3e3e",
-            "foreground": "#100e23",
+            "foreground": "#141d2b",
             "powerline_symbol": "\ue0b0",
             "style": "powerline",
-            "template": " error ",
+            "template": " {{ if gt .Code 0 }}\u2a2f{{else}}\u2713{{ end }} ",
             "type": "exit"
           }
         ],
@@ -88,7 +88,7 @@
           }
         ],
         "type": "prompt"
-      }
+      }  
     ],
     "final_space": true,
     "version": 2
