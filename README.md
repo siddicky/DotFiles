@@ -41,3 +41,11 @@ Tmux
 ## Example
 
 ![Alt text](images/custom-config-ubuntu.png?raw=true "Ubuntu")
+
+--
+
+## Kali i3-gaps
+Config preview on Kali i3-gaps
+![Alt tex](images/kali-i3-gaps.png?raw=true "Kali i3-gaps")
+
+[Arszilla / Kali i3-gaps](https://gitlab.com/Arszilla/kali_i3-gaps)
