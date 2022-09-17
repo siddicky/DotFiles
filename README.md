@@ -42,7 +42,7 @@ Tmux
 
 ![Alt text](images/custom-config-ubuntu.png?raw=true "Ubuntu")
 
---
+---
 
 ## Kali i3-gaps
 Config preview on Kali i3-gaps
